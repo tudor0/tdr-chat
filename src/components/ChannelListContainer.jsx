@@ -10,7 +10,7 @@ const SideBar = ({ logout }) => (
   <div className="channel-list__sidebar">
     <div className="channel-list__sidebar__icon1">
       <div className="icon1__inner">
-        <img src={logo} alt="logo" width="30" />
+        <img src={logo} alt="logo" width="30" className="icon1__inner__image" />
       </div>
     </div>
     <div className="channel-list__sidebar__icon2">
@@ -23,7 +23,7 @@ const SideBar = ({ logout }) => (
 
 const CompanyHeader = () => (
   <div className="channel-list__header">
-    <p className="channel-list__header__text">Chat app</p>
+    <p className="channel-list__header__text">Tdr Chat</p>
   </div>
 );
 
